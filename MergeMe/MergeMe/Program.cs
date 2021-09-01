@@ -15,7 +15,7 @@ namespace MergeMe
                 Name = "John",
                 LastName = "Doe",
             };
-            Console.WriteLine("My name is " + johndoe.FullName);
+            Console.WriteLine($"My name is {johndoe.FullName}");
             Console.ReadLine();
         }
     }
