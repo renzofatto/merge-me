@@ -10,6 +10,13 @@ namespace MergeMe
     {
         static void Main(string[] args)
         {
+            var johndoe = new User()
+            {
+                Name = "John",
+                LastName = "Doe",
+            };
+            Console.WriteLine("My name is " + johndoe.FullName);
+            Console.ReadLine();
         }
     }
 }
